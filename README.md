@@ -8,8 +8,17 @@ The goal of semantic segmentation is to assign a semantic label to each object i
 
 ![s2](https://user-images.githubusercontent.com/123977559/215550865-260b001d-3fb0-4e65-bcc5-34fd1970bf00.png)
 
+The course [Deep Learning for Image Segmentation with Python & Pytorch](https://www.udemy.com/course/deep-learning-for-semantic-segmentation-with-python-pytorh/?referralCode=0009C809CCE66FFAADA3) provides a comprehensive, hands-on experience in applying Deep Learning techniques to Semantic Image Segmentation problems and applications. Segmentation has a wide range of potential applications in various fields.
 
-It has a wide range of potential applications as shown in the image
 ![New Semantic Segmentation](https://user-images.githubusercontent.com/123977559/215546907-8c7ace81-ee20-432f-977f-bf0fffc8650f.png)
+
+In [Deep Learning for Image Segmentation with Python & Pytorch](https://www.udemy.com/course/deep-learning-for-semantic-segmentation-with-python-pytorh/?referralCode=0009C809CCE66FFAADA3) course, you'll learn how to use the power of Deep Learning to segment images and extract meaning from visual data. You'll start with an introduction to the basics of Semantic Segmentation using Deep Learning, then move on to implementing and training your own models for Semantic Segmentation with Python and PyTorch.
+This course is designed for a wide range of students and professionals, including but not limited to:
+Machine Learning Engineers, Deep Learning Engineers, and Data Scientists who want to apply Deep Learning to Image Segmentation tasks
+
++ Computer Vision Engineers and Researchers who want to learn how to use PyTorch to build and train Deep Learning models for Semantic Segmentation
++ evelopers who want to incorporate Semantic Segmentation capabilities into their projects
++ Graduates and Researchers in Computer Science, Electrical Engineering, and other related fields who want to learn about the latest advances in Deep Learning for Semantic Segmentation
++ In general, the course is for anyone who wants to learn how to use Deep Learning to extract meaning from visual data and gain a deeper understanding of the theory and practical applications of Semantic Segmentation using Python and PyTorch
 
 
