@@ -1,4 +1,4 @@
-# Semantic Image Segmentation with Python and Pytorch
+# Semantic Image Segmentation with Pytorch and Python 
 
 Semantic segmentation is a computer vision task that involves classifying every pixel in an image into predefined classes or categories. For example, in an image with multiple objects, we want to know which pixel belongs to which object. 
 
