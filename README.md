@@ -112,3 +112,6 @@ rgb = decode_segmap(predicted)
 plt.imshow(rgb); plt.show()
 ```
 ![output1](https://user-images.githubusercontent.com/123977559/215646280-3f09fd98-a543-453b-89d6-a0f5920c8e9c.JPG)
+
+If you want to train the segmentation models on your own image dataset to segment the images and to produce high results then follow the course [Deep Learning for Semantic Segmentation with Python & Pytorch](https://www.udemy.com/course/deep-learning-for-semantic-segmentation-with-python-pytorh/?referralCode=0009C809CCE66FFAADA3).  
+
