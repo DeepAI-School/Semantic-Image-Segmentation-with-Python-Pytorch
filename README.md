@@ -41,7 +41,7 @@ A complete segmmentation pipeline is followed in [Deep Learning for Semantic Seg
 # Semantic Segmentation using Pretrained Model with Pytorch
 This code uses the DeepLabV3 decoder and resnet101 encoder from torchvision library to perform semantic segmentation on an input image. The models have been trained on  COCO dataset with total of 21 classes including background. Model trained on the following Classes: background, aeroplane, bicycle, bird, boat, bottle, bus, car, cat, chair, cow, dining table, dog, horse, motorbike, person, potted plant, sheep, sofa, train, and tv/monitor. You can predict and segment images only belongs to these classes using pretrained model. If you want to train the segmentation models on your own image dataset to segment the images then follow the course [Deep Learning for Semantic Segmentation with Python & Pytorch](https://www.udemy.com/course/deep-learning-for-semantic-segmentation-with-python-pytorh/?referralCode=0009C809CCE66FFAADA3).  
 
-The code first mounts the Google Colab drive to access the image file. Then, the pre-trained DeepLabV3 model is loaded using models.segmentation.deeplabv3_resnet101 from torchvision library.
+The code first mounts the Google Colab drive to access the image file in Colab. Then, the pre-trained DeepLabV3 model is loaded using models.segmentation.deeplabv3_resnet101 from torchvision library.
 ```
 from google.colab import drive
 drive.mount('/content/drive')
