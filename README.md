@@ -34,3 +34,6 @@ The course [Deep Learning for Semantic Segmentation with Python & Pytorch](https
 + Hyperparameters Optimization and Training of Segmentation Models
 + Test Segmentation Model and Calculate IOU, Class-wise IOU, Pixel Accuracy, Precision, Recall and F-score
 + Visualize Segmentation Results and Generate RGB Predicted Segmentation Map
+
+A complete segmmentation pipeline is followed in [Deep Learning for Semantic Segmentation with Python & Pytorch](https://www.udemy.com/course/deep-learning-for-semantic-segmentation-with-python-pytorh/?referralCode=0009C809CCE66FFAADA3). 
+![s3](https://user-images.githubusercontent.com/123977559/215627933-3087fdad-3bf6-4457-9d44-3deb14178f1b.png)
