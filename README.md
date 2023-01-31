@@ -1,4 +1,4 @@
-# Semantic Image Segmentation with Pytorch and Python 
+# Deep Learning for Semantic Image Segmentation with Pytorch
 
 Semantic segmentation is a computer vision task that involves classifying every pixel in an image into predefined classes or categories. For example, in an image with multiple objects, we want to know which pixel belongs to which object. 
 
@@ -38,7 +38,7 @@ The course [Deep Learning for Semantic Segmentation with Python & Pytorch](https
 A complete segmmentation pipeline is followed in [Deep Learning for Semantic Segmentation with Python & Pytorch](https://www.udemy.com/course/deep-learning-for-semantic-segmentation-with-python-pytorh/?referralCode=0009C809CCE66FFAADA3). 
 ![s3](https://user-images.githubusercontent.com/123977559/215627933-3087fdad-3bf6-4457-9d44-3deb14178f1b.png)
 
-# Semantic Segmentation using Pretrained Model with Pytorch
+# Semantic Image Segmentation using Pretrained Model with Pytorch
 This code uses the DeepLabV3 decoder and resnet101 encoder from torchvision library to perform semantic segmentation on an input image. The models have been trained on  COCO dataset with total of 21 classes including background. Model trained on the following Classes: background, aeroplane, bicycle, bird, boat, bottle, bus, car, cat, chair, cow, dining table, dog, horse, motorbike, person, potted plant, sheep, sofa, train, and tv/monitor. You can predict and segment images only belongs to these classes using pretrained model. If you want to train the segmentation models on your own image dataset to segment the images and to produce high results then follow the course [Deep Learning for Semantic Segmentation with Python & Pytorch](https://www.udemy.com/course/deep-learning-for-semantic-segmentation-with-python-pytorh/?referralCode=0009C809CCE66FFAADA3).  
 
 The code first mounts the Google Colab drive to access the image file in Colab. Then, the pre-trained DeepLabV3 model is loaded using models.segmentation.deeplabv3_resnet101 from torchvision library.
