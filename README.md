@@ -55,6 +55,7 @@ Next, the image is loaded using the Image module from PIL library and displayed 
 from PIL import Image
 import matplotlib.pyplot as plt
 import torch
+import numpy as np
 
 #Load Input image from google drive in Colab
 img = Image.open('/content/drive/My Drive/Colab Notebooks/car.jpg')
@@ -73,10 +74,9 @@ trf = T.Compose([T.Resize(256),
                              std = [0.229, 0.224, 0.225])])
 inp = trf(img).unsqueeze(0)
 
+#Predict the output
 out = SegModel(inp)['out']
 
-import numpy as np
-#Predict the output
 predicted = torch.argmax(out.squeeze(), dim=0).detach().cpu().numpy()
 print (np.unique(predicted))
 ```
